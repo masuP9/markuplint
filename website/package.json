@@ -4,18 +4,11 @@
 	"version": "1.0.0-alpha.23",
 	"private": true,
 	"scripts": {
-		"site:dev": "webpack-dev-server --progress --watch --colors",
-		"site:build": "webpack --mode production"
-	},
-	"author": "Yusuke Hirao",
-	"license": "MIT",
-	"devDependencies": {
-		"babel-loader": "^8.0.6",
-		"webpack": "^4.41.2",
-		"webpack-cli": "^3.3.10",
-		"webpack-dev-server": "^3.9.0"
+		"site:dev": "gatsby develop",
+		"site:build": "gatsby build"
 	},
 	"dependencies": {
+		"@loadable/component": "^5.12.0",
 		"@markuplint/html-ls": "^1.0.0-alpha.16",
 		"@markuplint/html-parser": "^1.0.0-alpha.13",
 		"@markuplint/i18n": "^1.0.0-alpha.7",
@@ -24,6 +17,30 @@
 		"@markuplint/ml-core": "^1.0.0-alpha.19",
 		"@markuplint/ml-spec": "^1.0.0-alpha.7",
 		"@markuplint/rules": "^1.0.0-alpha.24",
-		"monaco-editor": "^0.18.1"
+		"gatsby": "^2.18.25",
+		"gatsby-image": "^2.2.39",
+		"gatsby-plugin-favicon": "^3.1.6",
+		"gatsby-plugin-react-helmet": "^3.1.21",
+		"gatsby-plugin-sharp": "2.3.13",
+		"gatsby-plugin-typescript": "^2.1.26",
+		"gatsby-source-filesystem": "^2.1.46",
+		"gatsby-transformer-remark": "^2.6.48",
+		"gatsby-transformer-sharp": "^2.3.13",
+		"monaco-editor": "^0.19.3",
+		"normalize.css": "^8.0.1",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0",
+		"react-helmet": "^5.2.1",
+		"react-monaco-editor": "^0.33.0",
+		"styled-components": "^5.0.0"
+	},
+	"devDependencies": {
+		"@types/loadable__component": "^5.10.0",
+		"@types/node": "^12.7.8",
+		"@types/react": "^16.9.17",
+		"@types/react-dom": "16.9.4",
+		"@types/react-helmet": "^5.0.15",
+		"@types/styled-components": "^4.4.2",
+		"monaco-editor-webpack-plugin": "^1.8.2"
 	}
 }
