@@ -6,7 +6,6 @@ const Style = styled.div`
 	position: relative;
 	top: 0;
 	left: 50%;
-	width: 100vw;
 	transform: translate(-50%, 0);
 	color: var(--lightest-color);
 	padding: 4em 2em;
@@ -28,9 +27,8 @@ const Style = styled.div`
 
 	h1 {
 		position: relative;
-		font-size: 5rem;
-		font-weight: 100;
-		letter-spacing: -0.04em;
+		font-size: 3rem;
+		font-weight: 400;
 		margin-top: 0;
 	}
 
@@ -66,8 +64,7 @@ const Hero: React.FunctionComponent = () => {
 			`}
 			render={(props: Props) => (
 				<Style>
-					<h1>{props.site.siteMetadata.name}</h1>
-					<p>{props.site.siteMetadata.description}</p>
+					<h1>For all markupers</h1>
 				</Style>
 			)}
 		/>

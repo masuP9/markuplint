@@ -63,7 +63,15 @@ module.exports = {
 				footnotes: true,
 				pedantic: true,
 				gfm: true,
-				plugins: [],
+				plugins: [
+					// Syntax coloring
+					{
+						resolve: 'gatsby-remark-code-titles',
+					},
+					{
+						resolve: `gatsby-remark-prismjs`,
+					},
+				],
 			},
 		},
 	],

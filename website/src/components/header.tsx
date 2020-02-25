@@ -50,6 +50,9 @@ const Header: React.FunctionComponent = () => {
 						<li role="listitem">
 							<Link to="/rules">Rules</Link>
 						</li>
+						<li role="listitem">
+							<Link to="/ja/">Japanese</Link>
+						</li>
 					</ul>
 				</nav>
 			</header>

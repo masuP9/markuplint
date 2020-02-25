@@ -64,20 +64,21 @@ export default React.memo((props: IndexPageProps) => {
 		<>
 			<Helmet
 				htmlAttributes={{
-					lang: 'en',
+					lang: 'ja',
 				}}
 			>
-				<title>For all markupers</title>
+				<title>{props.data.site.siteMetadata.siteName}</title>
 			</Helmet>
 			<Layout>
 				<Hero />
+				マークアップリント
 				<Nav>
 					<ul>
 						<li>
-							<Link to="/playground/">Playground</Link>
+							<Link to="/ja/playground">Playground</Link>
 						</li>
 						<li>
-							<Link to="/rules/">Rules</Link>
+							<Link to="/ja/rules">Rules</Link>
 						</li>
 					</ul>
 				</Nav>

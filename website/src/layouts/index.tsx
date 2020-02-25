@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import Header from '../components/header';
 import Footer from '../components/footer';
+import '../utils/i18n';
+
 import 'normalize.css';
 import './index.css';
 
@@ -27,10 +29,9 @@ const GridSide = styled.div`
 
 const GridMain = styled.div`
 	grid-area: main;
-	padding: 0 2em 2em;
+	padding: 0 0 2em;
 
 	main {
-		max-width: 800px;
 		margin: 0 auto;
 	}
 `;
