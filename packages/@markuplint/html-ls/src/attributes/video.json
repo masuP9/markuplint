@@ -1,0 +1,50 @@
+{
+	"tag": "audio",
+	"attributes": [
+		{
+			"name": "autoplay",
+			"type": "boolean"
+		},
+		{
+			"name": "controls",
+			"type": "boolean"
+		},
+		{
+			"name": "crossorigin",
+			"type": "crossorigin"
+		},
+		{
+			"name": "height",
+			"type": "pixel"
+		},
+		{
+			"name": "loop",
+			"type": "boolean"
+		},
+		{
+			"name": "muted",
+			"type": "boolean"
+		},
+		{
+			"name": "preload",
+			"type": "string",
+			"enum": ["none", "metadata", "auto", ""]
+		},
+		{
+			"name": "playsinline",
+			"type": "boolean"
+		},
+		{
+			"name": "poster",
+			"type": "URL"
+		},
+		{
+			"name": "src",
+			"type": "URL"
+		},
+		{
+			"name": "width",
+			"type": "pixel"
+		}
+	]
+}

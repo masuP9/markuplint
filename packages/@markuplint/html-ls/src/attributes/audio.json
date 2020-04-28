@@ -1,0 +1,34 @@
+{
+	"tag": "audio",
+	"attributes": [
+		{
+			"name": "autoplay",
+			"type": "boolean"
+		},
+		{
+			"name": "controls",
+			"type": "boolean"
+		},
+		{
+			"name": "crossorigin",
+			"type": "crossorigin"
+		},
+		{
+			"name": "loop",
+			"type": "boolean"
+		},
+		{
+			"name": "muted",
+			"type": "boolean"
+		},
+		{
+			"name": "preload",
+			"type": "string",
+			"enum": ["none", "metadata", "auto", ""]
+		},
+		{
+			"name": "src",
+			"type": "URL"
+		}
+	]
+}
